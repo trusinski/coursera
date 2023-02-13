@@ -1,5 +1,91 @@
+body {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 #header-nav {
-    border: 1px solid black;
     background-color: grey;
     border-radius: 0;
+    border: 0;
+    width: 100%;
+}
+
+.container-fluid {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.navbar-brand h1 {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: black;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: transparent;
+  border-color: #ddd;
+}
+
+.navbar-default .navbar-toggle:hover .icon-bar,
+.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #ddd;
+}
+
+.navbar-header button.navbar-toggle {
+    border: 2px solid black;
+}
+
+#main-label {
+    text-align: center;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+#main-content h1 {
+    text-align: center;
+}
+
+#main-content {
+    padding: 15px;
+    position: relative;
+    width: 100%;
+}
+
+.tile {
+    background-color: grey;
+    width: 100%;
+}
+
+.tile p {
+    text-align: left;
+    padding: 10px;
+    font-size: 1.1em;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: black;
+    background-color: rgb(167, 167, 167);
+}
+
+.visible-xs a {
+    text-align: center;
+    border: 1px solid black;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#tile-label {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    background-color: 1px solid black;
+    padding-top: 10px;
 }
